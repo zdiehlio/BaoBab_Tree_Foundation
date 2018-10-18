@@ -1,12 +1,21 @@
 body {
   width: 100%;
   margin: 0;
+  font-family: Montserrat;
+  line-height: 2em;
+  background: antiquewhite;
 }
 
 nav {
+  background: linear-gradient(red, yellow);
   width: 100%;
   background-color: red;
   padding: 1em;
+  margin-bottom: 3em;
+}
+
+span:hover {
+  cursor: pointer;
 }
 
 nav h1 {
@@ -14,9 +23,21 @@ nav h1 {
   margin-right: 2em;
 }
 
+h2 {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
 nav span {
   margin: 1em;
 }
+
+h3 {
+  width: 50%;
+  margin: auto;
+}
+
 #main-content {
   width: 80%;
   padding: 1em;
@@ -30,7 +51,37 @@ nav span {
   text-align: center;
 }
 
+#advisors {
+  width: 100%;
+}
+
+#advisors div {
+  width: 100%;
+  padding: 1em;
+}
+
+#advisors h3 {
+  width: 15%;
+  float: left;
+  padding: 1em;
+  margin-top: 2em;
+}
+
+#advisors p {
+  width: 80%;
+  float: left;
+}
+
+hr {
+  display: block;
+  width: 95%;
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px black inset;
+}
+
 iframe {
   width: 80%;
   height: 30em;
+  margin-top: 2em;
 }
